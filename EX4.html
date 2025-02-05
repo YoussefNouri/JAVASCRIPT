@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>EX3</title>
+    </head>
+    <body>
+        <h1>Différence entre let et var</h1>
+        <script>
+            var a = "10";
+            let b = 20;
+            if(a < 20){
+                let b = 2;
+                a++;
+                b+="20";
+                var c = "3";
+                console.log("a = " + a + " b = " + b);
+            }
+            else{
+                b*=2;
+                alert(`a = ${a},b = ${b} , a + b + c = ${a + b + c}`);
+            }
+        </script>
+    </body>
+</html>
